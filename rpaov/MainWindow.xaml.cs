@@ -23,6 +23,11 @@ namespace rpaov
         public MainWindow()
         {
             InitializeComponent();
+
+            MessageBox.Show("ciao a tutti!!");
+            int numero = 20;
+
+            MessageBox.Show(""+numero);
         }
     }
 }
